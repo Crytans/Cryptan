@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой Telegram Канал</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+            background: #f7f9fc;
+            overflow-x: hidden;
+        }
+        header {
+            background: #0088cc;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .hero {
+            background: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .hero h2 {
+            margin: 0;
+            font-size: 2em;
+            color: #0088cc;
+        }
+        .hero p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-top: 10px;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #0088cc;
+            font-size: 1.5em;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+        .social-links a:hover {
+            color: #005f73;
+        }
+        .subscribe-form {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .subscribe-form input[type="email"] {
+            padding: 10px;
+            width: calc(100% - 22px);
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .subscribe-form input[type="submit"] {
+            padding: 10px 20px;
+            background: #0088cc;
+            border: none;
+            color: #fff;
+            font-size: 1.2em;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .subscribe-form input[type="submit"]:hover {
+            background: #005f73;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+        }
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 1.5em;
+            }
+            .subscribe-form input[type="email"] {
+                width: calc(100% - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на наш Telegram Канал!</h1>
+    </header>
+
+    <div class="container">
+        <div class="hero">
+            <h2>Подписывайтесь на наш канал</h2>
+            <p>Следите за последними новостями, обновлениями и эксклюзивным контентом в нашем Telegram-канале. Мы делимся интересными статьями, новостями и многим другим!</p>
+            <div class="social-links">
+                <a href="https://t.me/yourchannel" target="_blank">Перейти в канал</a>
+                <a href="https://facebook.com/yourprofile" target="_blank">Facebook</a>
+                <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+                <a href="https://instagram.com/yourprofile" target="_blank">Instagram</a>
+            </div>
+        </div>
+
+        <div class="subscribe-form">
+            <h2>Получайте обновления на почту</h2>
+            <p>Введите ваш email, чтобы получать самые свежие новости и обновления прямо в ваш почтовый ящик.</p>
+            <form action="YOUR_FORM_ACTION_URL" method="POST">
+                <input type="email" name="email" placeholder="Ваш email" required>
+                <input type="submit" value="Подписаться">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Ваш Telegram Канал. Все права защищены.</p>
+    </footer>
+</body>
+</html>
